@@ -42,7 +42,8 @@ while flag_1 == True:
             while flag == ' ':
                 time_ = float(input('введите время записи: '))
                 event = input('введите само событие: ')
-                data.writelines(f'\n {time_}ч - {event}')
+                data.writelines(f'{time_} ч - {event}')
+                data.write('\n')
                 print()
                 flag = input('Для того, чтобы продолжит записывать строки нажмите "Пробел"'
                              'а если хотите выйти в главное меню нажмите любую другую клавишу ')
@@ -52,7 +53,8 @@ while flag_1 == True:
             while flag == ' ':
                 time_ = float(input('введите время записи: '))
                 event = input('введите само событие: ')
-                data.writelines(f'\n {time_}ч - {event}')
+                data.writelines(f'{time_} ч - {event}')
+                data.write('\n')
                 print()
                 flag = input('Для того, чтобы продолжит перезаписывать строки нажмите "Пробел"'
                              'а если хотите выйти в главное меню нажмите любую другую клавишу ')
